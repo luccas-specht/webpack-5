@@ -9,6 +9,10 @@ module.exports = {
     filename: 'bundle.[contenthash].js',
     path: path.resolve(__dirname, './dist'),
     publicPath: 'dist/',
+    //    clean: {
+    //      dry: true,
+    //      keep: /\.css/, // which files should keep
+    //    },
   },
   mode: 'none',
   module: {
